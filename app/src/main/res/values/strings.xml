@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">PetInfoMate</string>
+    <string name="select_coctail_for_more_detail">Select Cocktail For More Detail</string>
+    <string name="list_of_coctails">List Of Coctails</string>
+    <string name="share">Share</string>
+    <string name="images">Images</string>
+    <string name="about_us">About Us</string>
+    <string name="welcome">Welcome to MyAnimalInfo, your go-to app for discovering comprehensive information about various animals from around the world. Whether you\'re a wildlife enthusiast, a student, or just curious about different species, MyAnimalInfo is here to provide you with a wealth of knowledge about the animal kingdom.</string>
+    <string name="animal_detail">Animal Detail</string>
+    <string name="favourite">Favourite</string>
+    <string name="what_kind_of_animal_ndo_you_want_to_search">What Kind of Animal \nDo you want to search?</string>
+    <string name="hint_dashboard">E.g Lion,Cheetah,Greyhound</string>
+    <string name="search">Search</string>
+    <string name="clear">Clear</string>
+    <string name="result">Result</string>
+    <string name="title_home">Home</string>
+</resources>
