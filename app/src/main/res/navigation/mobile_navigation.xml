@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_home">
+
+    <fragment
+        android:id="@+id/navigation_home"
+        android:name="com.manageairproducts.petinfomate.ui.dashboard.DashboardFragment"
+        android:label="@string/title_home"
+        tools:layout="@layout/fragment_home">
+        <action
+            android:id="@+id/action_navigation_home_to_animalDetailFragment"
+            app:destination="@id/animalDetailFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/navigation_fav"
+        android:name="com.manageairproducts.petinfomate.ui.fav.FavFragment"
+        android:label="@string/favourite"
+        tools:layout="@layout/fragment_favrorite">
+        <action
+            android:id="@+id/action_navigation_fav_to_animalDetailFragment"
+            app:destination="@id/animalDetailFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/navigation_about"
+        android:name="com.manageairproducts.petinfomate.ui.aboutus.AboutUsFragment"
+        android:label="@string/about_us"
+        tools:layout="@layout/fragment_about_us" />
+    <fragment
+        android:id="@+id/animalDetailFragment"
+        android:name="com.manageairproducts.petinfomate.ui.detail.AnimalDetailFragment"
+        android:label="Animal Detail"
+        tools:layout="@layout/fragment_animal_detail" >
+        <argument
+            android:name="isFromDb"
+            app:argType="boolean"
+            android:defaultValue="false" />
+    </fragment>
+</navigation>
