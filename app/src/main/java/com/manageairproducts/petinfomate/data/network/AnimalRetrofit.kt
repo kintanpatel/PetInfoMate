@@ -9,7 +9,8 @@ import retrofit2.converter.gson.GsonConverterFactory
 object AnimalRetrofit {
 
     private const val BASE_URL = "https://api.api-ninjas.com/v1/"
-    private const val API_KEY = "tLWCLr4G06R5VEJtTpRUHwGkLCL7WTIVjG2QvyiZ"
+    //TODO Change your API Key
+    private const val API_KEY = ""
 
     private val retrofit: Retrofit by lazy {
         Retrofit.Builder()
